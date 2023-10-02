@@ -1,0 +1,24 @@
+{
+    "name": "kurop3312/prueba1",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "kuroP3312",
+            "email": "luis.padilla3312@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+	"require": {
+		"php": ">=7.0",
+        "realrashid/sweet-alert": "^7.1"
+	},
+    "autoload":
+    {
+        "psr-4":
+        {
+            "Core\\": "Core/",
+            "src\\" : "src/"
+        }
+    }
+}
