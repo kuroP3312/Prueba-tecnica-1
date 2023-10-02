@@ -15,7 +15,7 @@
 
 </head>
 
-<body style="background-image: url('../../../images/code.jpg')">
+<body style="background-image: url('<?= $baseUrl ?>public/images/code.jpg')">
 
   <header>
    
@@ -23,7 +23,7 @@
   <nav class="navbar navbar-expand navbar-light bg-light">
       <ul class="nav navbar-nav">
           <li class="nav-item">
-              <a class="nav-link active" href="../../../index.php" aria-current="page">Prueba Tecnica - PHP<span class="visually-hidden">(current)</span></a>
+              <a class="nav-link active" href="<?= $baseUrl ?>HomeController/index" aria-current="page">Prueba Tecnica - PHP<span class="visually-hidden">(current)</span></a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
